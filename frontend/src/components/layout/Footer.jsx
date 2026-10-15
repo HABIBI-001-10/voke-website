@@ -84,11 +84,18 @@ export default function Footer() {
                 {SITE_CONFIG.email}
               </a>
               <a
-                href={`tel:${SITE_CONFIG.phone}`}
+                href={`tel:${SITE_CONFIG.phone.replace(/\s+/g, '')}`}
                 className="footer__contact-link"
               >
                 <Icon name="phone" size={15} />
                 {SITE_CONFIG.phone}
+              </a>
+              <a
+                href={`tel:${SITE_CONFIG.phoneSecondary.replace(/\s+/g, '')}`}
+                className="footer__contact-link"
+              >
+                <Icon name="phone" size={15} />
+                {SITE_CONFIG.phoneSecondary}
               </a>
               <span className="footer__contact-link">
                 <Icon name="map-pin" size={15} />

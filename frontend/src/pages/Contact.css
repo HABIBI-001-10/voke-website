@@ -71,6 +71,24 @@
   font-weight: 500;
 }
 
+.contact-info__phones {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.contact-info__phone-link {
+  font-size: var(--text-base);
+  font-weight: 500;
+  color: var(--color-ink);
+  text-decoration: none;
+  transition: color var(--duration-fast);
+}
+
+.contact-info__phone-link:hover {
+  color: var(--color-accent);
+}
+
 .contact-info__whatsapp {
   margin-bottom: var(--space-6);
 }

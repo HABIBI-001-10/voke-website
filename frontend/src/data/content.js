@@ -8,11 +8,13 @@ export const SITE_CONFIG = {
   tagline: 'Advertising & Digital Growth',
   description:
     'Voke is a full-service advertising and digital growth company helping ambitious businesses scale and succeed.',
-  // Replace with real contact details:
-  phone: '+91 [PHONE — Replace]',
+  phone: '+91 89434 42479',
+  phoneSecondary: '+91 77361 81483',
+  phones: ['+91 89434 42479', '+91 77361 81483'],
   email: 'hello@voke.in',
   address: '[Office Address — Replace]',
-  whatsapp: '91XXXXXXXXXX', // Replace with real WhatsApp number (country code + number, no +)
+  whatsapp: '918943442479',
+  whatsappSecondary: '917736181483',
   social: {
     instagram: 'https://instagram.com/voke', // Replace
     linkedin: 'https://linkedin.com/company/voke', // Replace

@@ -150,13 +150,20 @@ export default function Contact() {
                     </div>
                   </a>
 
-                  <a href={`tel:${SITE_CONFIG.phone}`} className="contact-info__item">
+                  <div className="contact-info__item">
                     <Icon name="phone" size={18} />
                     <div>
                       <p className="contact-info__label">Phone</p>
-                      <p className="contact-info__value">{SITE_CONFIG.phone}</p>
+                      <div className="contact-info__phones">
+                        <a href={`tel:${SITE_CONFIG.phone.replace(/\s+/g, '')}`} className="contact-info__phone-link">
+                          {SITE_CONFIG.phone}
+                        </a>
+                        <a href={`tel:${SITE_CONFIG.phoneSecondary.replace(/\s+/g, '')}`} className="contact-info__phone-link">
+                          {SITE_CONFIG.phoneSecondary}
+                        </a>
+                      </div>
                     </div>
-                  </a>
+                  </div>
 
                   <div className="contact-info__item">
                     <Icon name="map-pin" size={18} />
