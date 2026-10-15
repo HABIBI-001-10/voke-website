@@ -7,7 +7,7 @@ export const SITE_CONFIG = {
   name: 'Voke',
   tagline: 'Advertising & Digital Growth',
   description:
-    'Voke is a full-service advertising and digital growth company helping ambitious businesses grow across India.',
+    'Voke is a full-service advertising and digital growth company helping ambitious businesses scale and succeed.',
   // Replace with real contact details:
   phone: '+91 [PHONE — Replace]',
   email: 'hello@voke.in',
@@ -23,7 +23,6 @@ export const SITE_CONFIG = {
 export const METRICS = [
   { value: '200+', label: 'Happy Clients' },
   { value: '20+', label: 'Brand Collaborations' },
-  { value: 'Pan-India', label: 'Service Coverage' },
 ]
 
 export const SERVICES = [
@@ -46,7 +45,7 @@ export const SERVICES = [
     whoItHelps:
       'Businesses that want to build brand awareness, launch new products, or reach new audiences with memorable, purposeful advertising.',
     howToBegin:
-      'Book a free consultation. We will listen to your goals, share our initial thinking, and outline a clear path forward.',
+      'Book a consultation. We will listen to your goals, share our initial thinking, and outline a clear path forward.',
   },
   {
     id: 'digital_marketing',
@@ -67,7 +66,7 @@ export const SERVICES = [
     whoItHelps:
       'Businesses that want to grow their online presence, generate quality leads, and understand exactly what is working.',
     howToBegin:
-      'Start with a free consultation. We will review your current digital presence and outline the channels and tactics best suited to your goals.',
+      'Start with a consultation. We will review your current digital presence and outline the channels and tactics best suited to your goals.',
   },
   {
     id: 'consultancy',

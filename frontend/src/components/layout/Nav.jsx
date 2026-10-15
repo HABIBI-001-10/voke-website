@@ -59,7 +59,7 @@ export default function Nav() {
 
           <div className="nav__actions">
             <Link to="/contact" className="btn btn--primary nav__cta">
-              Free Consultation
+              Book a Consultation
             </Link>
             <button
               className="nav__hamburger btn btn--ghost"
@@ -92,7 +92,7 @@ export default function Nav() {
             </NavLink>
           ))}
           <Link to="/contact" className="btn btn--primary nav__drawer-cta">
-            Free Consultation
+            Book a Consultation
           </Link>
         </nav>
       </div>

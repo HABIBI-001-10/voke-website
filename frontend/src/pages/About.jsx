@@ -17,7 +17,7 @@ export default function About() {
             </h1>
             <p className="about-hero__sub">
               Voke is a full-service advertising and digital growth company
-              working with businesses of every scale across India.
+              working with businesses of every scale.
             </p>
           </Reveal>
         </div>
@@ -41,7 +41,7 @@ export default function About() {
                   We believe that great advertising and smart digital strategy
                   are among the most powerful forces available to a growing
                   business. Our mission is to make both accessible to ambitious
-                  companies across India — delivered with craft, rigour, and a
+                  companies — delivered with craft, rigour, and a
                   genuine partnership mentality.
                 </p>
                 <p>
@@ -236,7 +236,7 @@ export default function About() {
               Let's grow something great together.
             </h2>
             <Link to="/contact" className="btn btn--primary">
-              Book a Free Consultation
+              Book a Consultation
             </Link>
           </Reveal>
         </div>

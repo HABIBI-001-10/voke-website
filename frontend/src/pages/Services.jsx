@@ -25,7 +25,7 @@ function ServiceSection({ service }) {
               </h2>
               <p className="service-section__desc">{service.fullDescription}</p>
               <Link to="/contact" className="btn btn--primary">
-                Start with a free consultation
+                Start with a consultation
               </Link>
             </div>
           </Reveal>
@@ -128,11 +128,11 @@ export default function Services() {
               Not sure which service fits?<br />Let's talk it through.
             </h2>
             <p style={{ color: 'rgba(245,244,240,.5)', maxWidth: '480px', margin: '0 auto var(--space-8)', lineHeight: 1.7 }}>
-              A free consultation is the right first step. We'll listen to your
+              A consultation is the right first step. We'll listen to your
               goals and recommend the clearest path forward.
             </p>
             <Link to="/contact" className="btn btn--primary">
-              Book a Free Consultation
+              Book a Consultation
             </Link>
           </Reveal>
         </div>

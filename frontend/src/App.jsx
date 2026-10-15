@@ -18,17 +18,17 @@ const ROUTE_META = {
   '/': {
     title: 'Voke — Advertising & Digital Growth',
     description:
-      'Voke helps ambitious businesses grow across India through advertising, digital marketing, business consultancy, and website development.',
+      'Voke helps ambitious businesses grow through advertising, digital marketing, business consultancy, and website development.',
   },
   '/services': {
     title: 'Services — Advertising, Digital Marketing & More | Voke',
     description:
-      'Advertising, digital marketing, business consultancy, and website & software development. Full-service growth partner for businesses across India.',
+      'Advertising, digital marketing, business consultancy, and website & software development. Full-service growth partner for ambitious businesses.',
   },
   '/work': {
     title: 'Our Work — Case Studies & Portfolio | Voke',
     description:
-      'Selected campaigns, digital projects, and brand work from Voke — an advertising and digital growth company serving businesses across India.',
+      'Selected campaigns, digital projects, and brand work from Voke — an advertising and digital growth company.',
   },
   '/about': {
     title: 'About Voke — Our Mission, Team & Story',
@@ -36,9 +36,9 @@ const ROUTE_META = {
       'Learn about Voke: our mission, values, team, and the story behind our full-service advertising and growth company.',
   },
   '/contact': {
-    title: 'Contact — Book a Free Consultation | Voke',
+    title: 'Contact — Book a Consultation | Voke',
     description:
-      'Get in touch with Voke. Book a free consultation or send us a message about your advertising, digital marketing, or development project.',
+      'Get in touch with Voke. Book a consultation or send us a message about your advertising, digital marketing, or development project.',
   },
   '/privacy': {
     title: 'Privacy Policy | Voke',

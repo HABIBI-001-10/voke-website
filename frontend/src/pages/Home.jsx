@@ -57,7 +57,7 @@ export default function Home() {
         <div className="container hero__inner">
           <div className="hero__content">
             <Reveal>
-              <p className="eyebrow">Advertising &amp; Digital Growth · Pan-India</p>
+              <p className="eyebrow">Advertising &amp; Digital Growth</p>
             </Reveal>
             <Reveal delay={80}>
               <h1 className="hero__headline display">
@@ -67,7 +67,7 @@ export default function Home() {
             </Reveal>
             <Reveal delay={160}>
               <p className="hero__sub">
-                Voke partners with ambitious businesses across India to build
+                Voke partners with ambitious businesses to build
                 brands people remember — through advertising, digital marketing,
                 strategic consultancy, and technology.
               </p>
@@ -75,7 +75,7 @@ export default function Home() {
             <Reveal delay={240}>
               <div className="hero__actions">
                 <Link to="/contact" className="btn btn--primary">
-                  Book a Free Consultation
+                  Book a Consultation
                 </Link>
                 <Link to="/work" className="btn btn--outline">
                   Explore Our Work <Icon name="arrow-right" size={15} />
@@ -128,7 +128,7 @@ export default function Home() {
               <div className="about-intro__left">
                 <p className="eyebrow">Who We Are</p>
                 <h2 id="about-intro-heading" className="about-intro__heading">
-                  A growth partner<br />built for India.
+                  A growth partner<br />built for scale.
                 </h2>
               </div>
             </Reveal>
@@ -137,7 +137,7 @@ export default function Home() {
                 <p>
                   Voke is a full-service advertising and digital growth company
                   working with businesses of every scale — from ambitious
-                  startups to established brands — across India.
+                  startups to established brands.
                 </p>
                 <p>
                   We combine strategic thinking with creative craft and
@@ -277,12 +277,12 @@ export default function Home() {
                 <em>worth talking about.</em>
               </h2>
               <p className="cta-banner__sub">
-                Book a free, no-obligation consultation. We'll listen, share
+                Book a consultation with our team. We'll listen, share
                 our initial thinking, and outline a clear path to your goals.
               </p>
               <div className="cta-banner__actions">
                 <Link to="/contact" className="btn btn--primary">
-                  Book a Free Consultation
+                  Book a Consultation
                 </Link>
                 <Link to="/services" className="btn btn--outline-light">
                   Explore Services

@@ -18,7 +18,7 @@ export default function Footer() {
               Advertising &amp; Digital Growth
             </p>
             <p className="footer__description">
-              Helping ambitious businesses grow across India through advertising,
+              Helping ambitious businesses grow through advertising,
               digital marketing, consultancy, and software development.
             </p>
             <div className="footer__social">
@@ -96,7 +96,7 @@ export default function Footer() {
               </span>
             </div>
             <Link to="/contact" className="btn btn--primary footer__cta">
-              Free Consultation
+              Book a Consultation
             </Link>
           </div>
         </div>
@@ -107,7 +107,7 @@ export default function Footer() {
           <p className="footer__copy">
             &copy; {year} Voke. All rights reserved.
           </p>
-          <p className="footer__serving">Serving businesses across India</p>
+          <p className="footer__serving">Empowering ambitious brands</p>
         </div>
       </div>
     </footer>

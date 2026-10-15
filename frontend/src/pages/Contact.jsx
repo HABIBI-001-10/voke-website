@@ -124,7 +124,7 @@ export default function Contact() {
               <em>your goals.</em>
             </h1>
             <p className="contact-hero__sub">
-              Book a free consultation or send us a message. We'll respond
+              Book a consultation or send us a message. We'll respond
               within 1–2 business days.
             </p>
           </Reveal>
