@@ -11,7 +11,7 @@ export const SITE_CONFIG = {
   phone: '+91 89434 42479',
   phoneSecondary: '+91 77361 81483',
   phones: ['+91 89434 42479', '+91 77361 81483'],
-  email: 'hello@voke.in',
+  email: 'infovokesolutions@gmail.com',
   address: '[Office Address — Replace]',
   whatsapp: '918943442479',
   whatsappSecondary: '917736181483',

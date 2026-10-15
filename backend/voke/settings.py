@@ -133,7 +133,7 @@ EMAIL_USE_TLS = config("EMAIL_USE_TLS", default=True, cast=bool)
 EMAIL_HOST_USER = config("EMAIL_HOST_USER", default="")
 EMAIL_HOST_PASSWORD = config("EMAIL_HOST_PASSWORD", default="")
 DEFAULT_FROM_EMAIL = config("DEFAULT_FROM_EMAIL", default="noreply@voke.in")
-CONTACT_RECIPIENT_EMAIL = config("CONTACT_RECIPIENT_EMAIL", default="hello@voke.in")
+CONTACT_RECIPIENT_EMAIL = config("CONTACT_RECIPIENT_EMAIL", default="infovokesolutions@gmail.com")
 
 # ---------------------------------------------------------------------------
 # Security (tighten for production)
